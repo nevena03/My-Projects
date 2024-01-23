@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.gore{
+   
+    background-color: peachpuff;
+    padding: 1em;
+    
+
+}
+h2{
+    color: brown;
+    font-weight: bold;
+}
+.dole{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.levo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#za_centriranje{
+    text-align: center;
+}
+table tr td,
+table tr th{
+    padding: 1em;
+    text-align: center;
+    background-color: cornsilk;
+    color: brown;
+    font-weight: bold;
+
+   
+}
+.gore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: salmon;
+    color: white;
+}
+#greska_id,
+#greska_ime_prezime,
+#greska_godina_rodjenja,
+#greska_email{
+    color: brown;
+    font-weight: bold;
+    font-size: 1em;
+}
+.timer{
+    border: solid black 3px;
+    background-color: red;
+    height: 10vh;
+}
+.div_odgovor{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em 0;
+}
+.pitanje{
+    font-weight: bold;
+    font-size: 3em;
+    color: brown;
+    margin: 1em 0;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+#obavestenje{
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+#greska_id_update,
+#greska_ime_prezime_update,
+#greska_godina_rodjenja_update,
+#greska_email_update{
+    color: brown;
+    font-weight: bold;
+    font-size: 1em;
+
+
+}
+
+

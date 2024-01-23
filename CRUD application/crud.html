@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacija CRUD</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <div class="container">
+            <div id="tabela_div" class="gore">
+             
+               
+                
+
+
+
+            </div>
+            <div class="dole">
+                <div class="levo">
+                    <form>
+                        <h2>DODAJ CLANA</h2>
+                        <p>
+                            <label>ID</label>
+                            <input type="text" id="id" name="id">
+                            <span id="greska_id"></span>
+                        </p>
+                        <p>
+                            <label>IME I PREZIME</label>
+                            <input type="text" id="ime_prezime" name="ime_prezime" >
+                            <span id="greska_ime_prezime" ></span>
+                            
+                        </p>
+                        <p>
+                            <label>GODINA RODJENJA</label>
+                            <input type="number" id="godina_rodjenja" name="godina_rodjenja" >
+                            <span id="greska_godina_rodjenja"></span>
+                        </p>
+                        <p>
+                            <label>EMAIL</label>
+                            <input type="text" id="email" name="email" >
+                            <span id="greska_email"></span>
+                        </p>
+                        <p id="za_centriranje">
+                            <label>VRSTA CLANA</label>
+                            <br>
+                            <input type="radio" name="vrsta_clana" id="vrsta_regularan" value="regularan" checked>REGULARAN
+                            <input type="radio" name="vrsta_clana" id="vrsta_povlascen" value="povlascen">POVLASCEN
+                        </p>
+                        <p>
+                            <button id="dodaj_clana" type="button">DODAJ CLANA</button>
+                        </p>
+                    </form>
+
+                </div>
+                <div id="desno">
+
+                </div>
+                
+
+            </div>
+            <div id="obavestenje">
+
+            </div>
+            <div id="timer">
+
+            </div>
+            <div id="pitanje">
+
+            </div>
+            <div class="div_odgovor" id="div_odgovor">
+                <input type="number" id="odgovor">
+                <button onclick="proveri_odgovor()" id="proveri_odogovor">PROVERI</button>
+              
+            </div>
+
+            
+        </div>
+
+
+    
+    <script src="js/crud.js"></script>
+</body>
+</html>
