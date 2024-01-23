@@ -1,0 +1,2523 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato:wght@300&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Raleway;
+
+}
+a{
+
+    text-decoration: none;
+}
+.main a img{
+    transition: filter 0.3s;
+    filter: brightness(70%);
+}
+.main a:hover img{
+    filter: brightness(100%);
+}
+.main img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background-color: #edf1f2;
+}
+.header{
+    height: 99px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    
+}
+.header_gore{
+    height: 31%;
+    display: flex;
+    background-color: #edf1f2;
+    padding: 0px 13em;
+}
+.header_gore_levo{
+    width: 65%;
+    height: 100%;
+
+}
+.header_gore_levo ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-right: 2em;
+}
+.header_gore_levo ul li{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_gore_levo ul li a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_gore_desno{
+    width: 35%;
+    height: 100%;
+}
+.ikonice{
+    width: 100%;
+    height: 100%; 
+}
+.ikonice ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+   
+}
+.ikonice ul li{
+    height: 100%;
+    display: flex;
+    padding: 0px 0.7em;
+}
+.ikonice ul li a {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    
+}
+.ikonice ul li a img{
+    height: 65%;
+
+}
+.header_dole{
+    height: 69%;
+    display: flex;
+    padding: 0px 13em;
+    background-color: white;
+}
+.logo{
+    height: 100%;
+    
+}
+.logo img{
+    height: 100%;
+}
+.meni{
+    height: 100%;
+    width: 100%;
+ 
+}
+.meni ul{
+   
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.meni ul li{
+ 
+    height: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+}
+.meni ul li:hover:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+}
+.meni ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+
+}
+.main{
+    width: 77%;
+    
+   
+    background-color: white;
+    margin: 0px auto;
+}
+.centar_levo img{
+    width: 100%;
+    height: 100%;
+}
+.leva_strana a:hover{
+    opacity: 0.7;
+}
+.centar_reklama{
+    height: 400px;
+    width: 100%;
+    padding-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.slika{
+    height: 80%;
+    width: 95%;
+    
+    
+}
+.slika img{
+    height: 100%;
+    width: 100%;
+    
+}
+.centar_dole{
+    width: 100%;
+  
+    background-color: white;
+    display: flex;
+}
+.leva_strana{
+    width: 70%;
+}
+.centar_levo{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.centar_desno{
+    height: 100%;
+    width: 30%;
+  
+   
+   
+    
+  
+}
+.prva_tri{
+    width: 100%;
+    height: 50%;
+   
+}
+.veci{
+    height: 90%;
+    width: 55%;
+   
+    position: relative;
+    display: flex;
+}
+.link_levo{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #27d050;
+    height: 10%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.komentar_desno{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 8%;
+    width: 20%;
+    
+}
+.text_unutra{
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    font-weight: bold;
+    padding: 0 1em;
+    width: 100%;
+}
+.text_unutra a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.komentar_desno a img{
+    height: 100%;
+    width: 100%;
+}
+.link_levo a{
+    color: white;
+    font-weight: bold;
+}
+.veci a img{
+    height: 100%;
+    width: 100%;
+}
+.dva_manja{
+   
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.mali{
+   
+    height: 45%;
+    width: 80%;
+    position: relative;
+}
+.link_desno{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 15%;
+    width: 32%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.link_desno a {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.mali a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+}
+.text_naslov{
+    position: absolute;
+    bottom: 20%;
+    font-size: 0.9em;
+    padding: 0 1em;
+    width: 100%;
+}
+.text_naslov a{
+    color: white;
+    font-weight: bold;
+}
+.veci_sa_6{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mali_novi{
+  
+    width: 33%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.slika_1{
+    height: 50%;
+    width: 90%;
+   
+    position: relative;
+}
+.slika_1 a img {
+    height: 100%;
+    width: 100%;
+
+}
+.levo_dole_link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+.levo_dole_link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.tekst_ispod{
+    height: 35%;
+    width: 90%;
+    position: relative;
+   
+    
+}
+.tekst_ispod a{
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+.ikonice_bele{
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 23%;
+
+}
+.ikonice_bele a img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+}
+.jedan_veliki{
+   
+    height: 350px;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+
+}
+.naslov_velikog{
+    height: 20%;
+    width: 95%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.tekst_levo{
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    font-size: 1.2em;
+    
+}
+.strelice_desno{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.jedna{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+   
+}
+.jedna a{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.jedna a:hover{
+    filter: brightness(70%);
+
+}
+.dve_vesti{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.jedan_levo{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.navijac{
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+.navijac a img{
+    height: 100%;
+    width: 100%;
+    
+}
+.tekst_ispod2{
+    height: 25%;
+    width: 100%;
+}
+.tekst_ispod2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.novi_link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.novi_link a{
+    color: white;
+    font-weight: bold;
+
+}
+.tekst_ispod2 a:hover{
+    filter: brightness(70%);
+}
+.sivi_tekst{
+    height: 100px;
+    width: 95%;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.sivilo {
+    height: 60%;
+    width: 100%;
+    background-color:  #dde5e7;  
+    font-size: 1.1em;
+    font-weight: 100;
+    padding: 0.3em;
+    padding-left: 1em;
+}
+.sivilo a{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+.vesti{
+    height: 800px;
+    width: 100%;
+    
+   
+}
+.vesti_naslov{
+    height: 10%;
+    width: 95%;
+    color: black;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+.vise_stvari{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+.vise_stvari ul{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.vise_stvari ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.vise_stvari ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.veliki_div{
+   height: 90%;
+   width: 95%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+.veci_deo{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.veci_deo a img{
+    height: 100%;
+    width: 100%;
+}
+.link_opet{
+    height: 9%;
+    width: 13%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.link_opet a{
+    color: white;
+    font-weight: bold;
+}
+.ikonice_opet_crne{
+    position: absolute;
+    height: 9%;
+    width: 15%;
+    right: 0;
+    bottom: 0;
+}
+.tekst_naslov3{
+    width: 100%;
+    padding: 0 2em;
+    position: absolute;
+    bottom: 15%;
+
+
+}
+.tekst_naslov3 a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+.tekst_naslov3 a:hover{
+    filter: brightness(70%);
+}
+.dva_manja_ispod{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ceo_div{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.slika_opet{
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+.slika_opet a img{
+    height: 100%;
+    width: 100%;
+}
+.link_2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.link_2 a{
+    color: white;
+    font-weight: bold;
+}
+.tekst_ispod7{
+    height: 25%;
+    width: 100%;
+}
+.tekst_ispod7 a{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.tekst_ispod7 a:hover{
+    filter: brightness(70%);
+}
+.ikonice_opet2{
+    height: 10%;
+    width: 25%;
+
+}
+.ikonice_opet2 a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(100%);
+}
+.nova_tri_ispod{
+    height:300px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.jedan_mali{
+    height: 95%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.slika_unutra{
+    height: 55%;
+    width: 100%;
+    position: relative;
+}
+.slika_unutra a img{
+    height: 100%;
+    width: 100%;
+}
+
+.link_opet4{
+    height: 10%;
+    width: 40%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link_opet4 a{
+    color: white;
+    font-weight: bold;
+}
+.tekst_ispod5{
+    height: 30%;
+    width: 100%;
+}
+.tekst_ispod5 a {
+    color: black;
+    font-weight: bold;
+}
+.tekst_ispod5 a:hover{
+    filter: brightness(70%);
+}
+.ikonice_5{
+    height: 9%;
+    width: 36%;
+}
+.ikonice_5 a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(100%);
+}
+.dugme{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sve_vesti{
+    height: 55%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: solid black 3px;
+    
+
+}
+.sve_vesti a{
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+    
+}
+.sve_vesti a:hover{
+    color: white;
+    background-color: black;
+    opacity: 1;
+
+}
+.centar_desno a:hover{
+    opacity: 0.7;
+}
+.reklama_desno{
+    width: 85%;
+    height: 560px;
+    margin-top: 1em;
+}
+.reklama_desno a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(100%);
+}
+.reklama_desno a:hover{
+    opacity: 1;
+}
+.najnovije{
+    height: 1000px;
+    width: 92%;
+    padding: 1.8em 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+.slika_najnovije{
+    height: 70px;
+    width: 90%;
+    
+}
+.slika_najnovije  img{
+    height: 100%;
+    width: 100%;
+}
+.slika_najnovije a:hover img{
+    filter: brightness(100%);
+
+}
+.novi_rad{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0;
+   
+}
+.pre7{
+    height: 40px;
+    width: 15%;
+}
+.pre7 img{ 
+    height: 100%;
+    width: 100%;
+}
+.tekst_novog{
+    width: 85%;
+    height: 80%;
+}
+.tekst_novog a{
+    color: black;
+    font-weight: bold;
+}
+.ikonice_bele_again{
+    margin-top: 0.3em;
+    height: 25px;
+    width: 30%;
+    
+}
+.ikonice_bele_again  img{
+    height: 100%;
+    width: 100%;
+   
+}
+.ikonice_bele_again a:hover img{
+    filter: brightness(100%);
+}
+.dugme_opet{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sve_vesti_opet{
+    height: 50%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    border: solid black 3px;
+   
+    
+
+}
+.sve_vesti_opet a{
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+    
+}
+.sve_vesti_opet a:hover{
+    color: white;
+    background-color: black;
+    opacity: 1;
+
+}
+.akcija{
+    height: 82px;
+    width: 100%;
+}
+.akcija a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(100%);
+}
+.akcija a:hover{
+    opacity: 1;
+}
+.slicno_dugme{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tekst_dugme{
+    height: 50%;
+    width: 96%;
+    display: flex;
+    background-color:  #edf1f2;;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+.eur{
+    height: 50%;
+    width: 50%;
+}
+.usd{
+    height: 50%;
+    width: 50%;
+}
+.vreme_bg{
+    height: 85px;
+    width: 100%;
+
+}
+.vreme_bg img{
+    height: 100%;
+    width: 100%;
+}
+.reklama_najnovije{
+    height: 600px;
+    width: 90%;
+}
+.reklama_najnovije a img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    height: 280px;
+    width: 100%;
+    background-color: #0c0c0d;
+}
+.footer img{
+    height: 100%;
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.footer_gore{
+    height: 75%;
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer_dole{
+    height: 25%;
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_gore_levo,
+.footer_gore_desno{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.footer_gore_levo{
+    align-items: center;
+}
+.footer_gore_desno{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_gore_levo a{
+    height: 100%;
+    width: 100%;
+    padding-left: 0.5em;
+}
+.footer_gore_levo a:hover{
+    text-decoration: underline;
+}
+.footer_gore_levo ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 95%;
+    width: 100%;
+    padding-top: 1em;
+}
+.footer_gore_levo ul li{
+    height: 10%;
+    width: 30%;
+    margin: 0.3em 0;
+    display: flex;
+    align-items: center;
+}
+.boja{
+    height: 50%;
+    width: 2%;
+}
+
+.linkovi_desno{
+    height: 30%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.jedan_link{
+    height: 80%;
+    width: 30%;
+}
+.ikonice_dole{
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.jedna_ikonica{
+    height: 50%;
+    width: 5%;
+    margin: 0 0.8em;
+}
+.instagram_ikonica{
+    height: 55%;
+    width: 8%;
+    margin: 0 0.8em;
+}
+.footer_dole a:hover{
+    text-decoration: underline;
+}
+.tekst_desno{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tekst_desno span{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 0.3em;
+}
+.footer_dole ul{
+    list-style-type: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_dole ul li a{
+    font-weight: bold;
+}
+.veci_deo_desno{
+    height: 300px;
+    width: 95%;
+    position: relative;
+}
+.veci_deo_desno a:hover{
+    opacity: 0.7;
+}
+.naslov_gore{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5em;
+}
+.naslov_gore a{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+.slika_desnog{
+    height: 55%;
+    width: 100%;
+    position: relative;
+}
+.slika_desnog img{
+    width: 100%;
+    height: 100%;
+}
+.tekst_desnog{
+    width: 100%;
+    padding-top: 0.3em;
+}
+.tekst_desnog a{
+    color: black;
+    font-weight: bold;
+}
+.ikonice_desni{
+    position: absolute;
+    height: 9%;
+    width: 30%;
+    bottom: 0;
+    left: 0;
+}
+.ikonice_desni a img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+}
+.link_desnog{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.link_desnog a{
+    margin: 0.2em 0.2em;
+}
+.vise_manjih_desno{
+    height: 450px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.jedan_manji{
+    height: 23%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.slika_levo{
+    height: 85%;
+    width: 32%;
+}
+.slika_levo img{
+    height: 100%;
+    width: 100%;
+}
+.tekst_ikonice_desno{
+    height: 100%;
+    width: 68%;
+    position: relative;
+    padding-left: 0.5em;
+}
+.tekst_iznad{
+    width: 100%;
+}
+.tekst_iznad a{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+}
+.ikonice_ispod{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 24%;
+    width: 35%;
+}
+.ikonice_ispod a img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(100%);
+}
+.naslov_najnovije{
+    height: 80px;
+    width: 100%;
+    padding-left: 1em;
+
+}
+.naslov_najnovije h2{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+.forma_ispod{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.novi_unutar{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.prvi_od_tri{
+    width: 25%;
+    height: 35%;
+    
+   
+}
+.prvi_od_tri input{
+    height: 100%;
+    width: 100%;
+}
+.prvi_od_tri form{
+    height: 100%;
+    width: 100%;
+}
+
+.novi_naslov_opet{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+.jedan_od_vise{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+}
+.tekst_i_link{
+    width: 15%;
+    margin-left: 1em;
+}
+.sati_gore,
+.link_dole{
+    width: 100%;
+}
+.sati_gore{
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+.link_dole{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.naslov_ikonice{
+    width: 80%;
+}
+.naslov_gore_druga{
+    width: 100%;
+}
+.naslov_gore_druga{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.naslov_gore_druga a{
+    color: black;
+}
+.ikonice_dole_druga{
+    width: 12%;
+    height: 25px;
+    margin-top: 0.4em;
+}
+.ikonice_dole_druga a img{
+    filter: brightness(100%);
+    width: 100%;
+    height: 100%;
+}
+.prvi_od_tri a{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+}
+.prvi_od_tri a:hover{
+    opacity: 1;
+}
+.dropdown{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.ponovo_dugme{
+    width: 100%;
+    height: 100%;
+}
+.ponovo_dugme a{
+    background-color: #edf1f2;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.ponovo_dugme a:hover{
+    background-color: black;
+    color: white;
+}
+.novi_veliki{
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+}
+.naslov_novog{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.naslov_novog h2{
+    color: white;
+    font-weight: bold;
+}
+.tri_nova{
+    width: 100%;
+    height: 75%;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jedan_posebno{
+    width: 32%;
+    height: 90%;        
+}
+.slika_jednog{
+    height: 50%;
+    width: 100%;
+}
+.slika_jednog img{
+    width: 100%;
+    height: 100%;
+}
+.tekst_jednog{
+    margin-top: 0.2em;
+    height: 49%;
+    width: 100%;
+}
+.tekst_jednog a{
+    color: white;
+    font-weight: bold;
+} 
+.web_preporuke{
+    height: 700px;
+    width: 100%;
+    padding: 1em;
+}
+.naslov_web{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+.tri_za_web{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jedan_od_tri_web{
+    height: 93%;
+    width: 31%;
+}
+.slika_jednog_web{
+    height: 60%;
+    width: 100%;
+}
+.tekst_jednog_web{
+    height: 38%;
+    width: 100%;
+    margin-top: 0.3em;
+    display: flex;
+}
+.tekst_levo_web{
+    width: 86%;
+}
+.tekst_levo_web a{
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.ikonica_neka_desno{
+    height: 25px;
+    width: 14%;
+}
+.isto_to_sa_dva{
+    height: 30%;
+    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jedan_od_dva_web{
+    width: 49%;
+    height: 100%;
+}
+.slika_od_dva_web{
+    height: 75%;
+    width: 100%;
+}
+.tekst_od_dva_web{
+    width: 100%;
+    margin-top: 0.5em;
+    display: flex;
+}
+.tekst_od_dva_web a{
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.vise_sa_weba{
+    height: 700px;
+    width: 100%;
+    padding: 0 1em;
+    margin-bottom: 3em;
+}
+.po_dva_ispod{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.posebno{
+    width: 32%;
+    height: 30%;
+}
+.slika_posebno{
+    height: 70%;
+    width: 100%;
+}
+.tekst_posebno{
+    width: 100%;
+    margin-top: 0.2em;
+}
+.tekst_posebno a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.dugme_crno{
+    height: 70px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.sve_vesti_crno{
+    height: 55%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    border: solid white 3px;
+    background-color: black;
+    transition: background-color 0.5s;
+
+}
+.sve_vesti_crno a{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+    
+}
+.sve_vesti_crno a:hover{
+    background-color: white;
+    color: black;
+}
+.centar_desno a:hover{
+    opacity: 0.7;
+}
+
+.stranice{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stranice ul{
+    list-style-type: none;
+    display: flex;
+    height: 70%;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+.stranice ul li{
+    width: 8%;
+    height: 50%;
+}
+.stranice ul li a{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.strelica{
+    width: 100%;
+    height: 100%;
+    border: solid black 2px;
+}
+.stranice ul li a:hover{
+    filter: brightness(100%);
+    opacity: 1;
+}
+.stranice ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.horoskop{
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("../images/horoskop.jfif");
+    padding: 1em;
+}
+.naslov_horoskop{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.naslov_horoskop h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.lista_neka{
+    height: 10%;
+    width: 40%;
+}
+.lista_neka ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.lista_neka ul li a{
+    color: white;
+}
+.lista_horoskopa{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.horoskopski_znak{
+    width: 15%;
+    height: 40%;
+}
+.horoskopski_znak a img{
+    filter: brightness(100%);
+}
+.linija{
+    width: 65%;
+    border: solid #1188ea 2px;
+    margin-top: 0.6em;
+    margin-left: auto;
+}
+
+
+.kontakt_naslov{
+    height: 50px;
+    width: 100%;
+    padding-left: 0.5em;
+    color: black;
+    font-size: 2em;
+}
+.kontakt{
+    padding: 1em;
+    width: 100%;
+    font-size: 1.1em;
+}
+.kontakt p{
+    margin: 0.2em 0;
+}
+.kontakt p a{
+    color: red;
+    text-decoration: underline;
+}
+.mapa_ispod{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.mapa_ispod iframe{
+    width: 100%;
+    height: 100%;
+}
+.logo_za_responsive{
+    display: none;
+}
+.ikonica_za_responsive{
+    display: none;
+}
+.header_dole .header_gore_levo{
+    display: none;
+
+}
+.novi_header_biznis{
+    display: none;
+}
+.novi_plavi_logo{
+    display: none;
+}
+.header_biznis{
+    display: none;
+}
+#tekst_desno_web{
+    font-size: 1.1em;
+}
+.leva_strana .centar_reklama{
+    display: none;
+}
+#vise_sa_veba_manji{
+    font-size: 0.9em;
+}
+.dugme_opet a:hover{
+    opacity: 1;
+}
+.sve_vesti_crno a:hover{
+    opacity: 1;
+}
+@media only screen and (max-width: 992px){
+    .main{
+        width: 100%;
+    }
+    .header_gore{
+        display: none;
+    }
+    .logo,
+    .meni{
+        display: none;
+    }
+    .logo_za_responsive{
+        display: block;
+        height: 80%;
+        width: 18%;
+    }
+    .header_dole{
+        padding: 0 3em;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo_za_responsive img{
+        height: 100%;
+        width: 100%;
+    }
+    .ikonica_za_responsive{
+        width: 6%;
+        height: 70%;
+        display: block;
+    }
+    .ikonica_za_responsive ul{
+        display: block;
+        width: 150%;
+        height: auto;
+        z-index: 1;
+        top: 0;
+        list-style-type: none;
+        background-color: beige;
+        text-align: center;
+        visibility: hidden;
+    }
+    .ikonica_za_responsive:hover ul{
+        visibility: visible;
+    }
+    .ikonica_za_responsive ul li{
+        z-index: 1;
+        top: 0;
+        width: auto;
+        height: auto;
+        margin: 0.5em 0;
+        font-weight: bold;
+    }
+    .ikonica_za_responsive ul li a{
+        color: black;
+    }
+    .ikonica_za_responsive ul li:hover{
+        background-color: white;
+    }
+    .ikonica_za_responsive ul li a:hover{
+        text-decoration: underline;
+    }
+    .ikonica_za_responsive img{
+        height: 100%;
+        width: 100%;
+    }
+    .centar_reklama{
+        height: 200px;
+    }
+    .slika{
+        width: 95%;
+    }
+    .reklama_desno{
+        display: none;
+    }
+    .footer_dole{
+        width: 100%;
+    }
+    .footer_gore{
+        width: 100%;
+    }
+    .footer{
+        height: 350px;
+
+    }
+    .footer_gore{
+        height: 70%;
+    }
+    .footer_dole{
+        height: 30%;
+        flex-wrap: wrap;
+        padding: 0 5em;
+    }
+  
+    .footer_dole ul{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1em;
+
+    }
+    .tekst_desno{
+      
+        width: 60%;
+        margin: 0 auto;
+        height: auto;
+    }
+    #najnovije_reklama{
+        visibility: hidden;
+        height: 100px;
+    }
+    .leva_strana .centar_reklama{
+        height: 200px;
+        padding-top: 0;
+
+    }
+    .leva_strana .slika{
+        height: 60%;
+        width: 95%;
+    }
+    .leva_strana .slika img{
+        width: 100%;
+        height: 100%;
+    }
+    .header_gore_levo{
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+    .header_gore_levo a:hover{
+        opacity: 0.7;
+    }
+    
+    .novi_header_biznis{
+        display: block;
+        width: 10%;
+        height: 60%;
+    }
+    .novi_header_biznis ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+    .novi_header_biznis ul li{
+        height: 100%;
+        width: 45%;
+    }
+    .novi_header_biznis img{
+        width: 100%;
+        height: 100%;
+    }
+    .header_dole{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .novi_plavi_logo{
+        display: block;
+        height: 65%;
+        width: 20%;
+    }
+    .novi_plavi_logo img{
+        height: 100%;
+        width: 100%;
+    }
+    #vece{
+        height: 50px;
+    }
+    #biznis_header_dole{
+        display: none;
+    }
+    .header_biznis{
+        display: block;
+        width: 100%;
+        height: 60%;
+        background-color: #12a7b5;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+        align-items: center;
+    }
+    #hamburger_biznis ul{
+        display: block;
+        width: 200%;
+        height: auto;
+        background-color: lightblue;
+        z-index: 1;
+        top: 0;
+        visibility: hidden;
+    }
+    #hamburger_biznis ul li{
+        width: auto;
+        height: auto;
+        margin: 0.5em 0;
+        text-align: center;
+        z-index: 1;
+        top: 0;
+        font-weight: bold;
+    }
+    #hamburger_biznis ul li a{
+        color: white;
+    }
+    #hamburger_biznis ul li:hover{
+        background-color: white;
+    }
+    #hamburger_biznis ul li:hover a{
+        color: black;
+    }
+    #hamburger_biznis:hover ul{
+        visibility: visible;
+    }
+    .dugme_opet{
+        height: 300px;
+    
+    }
+    .sve_vesti_opet{
+        height: 40px;
+    }
+    .slicno_dugme{
+        height: 150px;
+    }
+    .tekst_dugme{
+        height: 140%;
+    }
+    #tekst_desno_web{
+        font-size: 0.9em;
+    }
+    .link_desno{
+        font-size: 0.7em;
+    }
+    .link_levo{
+        font-size: 0.8em;
+    }
+    .link_opet{
+        font-size: 0.7em;
+    }
+    .leva_strana .centar_reklama{
+        display: block;
+        display: flex;
+        align-items: center;
+        
+    }
+    .leva_strana .slika{
+        margin: 0 auto;
+    }
+    .prvi_od_tri{
+        width: 30%;
+    }
+    .dugme_opet{
+        height: 70px;
+    }
+    .novi_link{
+        font-size: 0.9em;
+    }
+    .najnovije{
+        width: 100%;
+    }
+    .slika_najnovije{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .logo_za_responsive{
+        width: 25%;
+        height: 60%;
+
+    }
+    .ikonica_za_responsive{
+        width: 10%;
+    }
+    .novi_header_biznis{
+        width: 30%;
+        justify-content: end;
+        display: flex;
+    }
+    .novi_header_biznis ul{
+        width: 50%;
+    }
+    .centar_dole{
+        flex-wrap: wrap;
+    }
+    .leva_strana,
+    .centar_desno{
+        width: 100%;
+    }
+    .centar_desno{
+        padding: 1em;
+    }
+    .slicno_dugme{
+        display: none;
+    }
+    .vreme_bg{
+        display: none;
+    }
+    #naslovna_veci_deo,
+    #naslovna_vise_manjih{
+        display: none;
+    }
+    .pre7{
+        width: 6%;
+    }
+    .tekst_novog{
+        width: 92%;
+    }
+    .ikonice_bele_again{
+        width: 11%;
+    }
+    .slika_najnovije{
+        height: 120px;
+        width: 90%;
+        margin: 0 auto;
+        order: 2;
+    }
+    .novi_rad{
+        order: 3;
+    }
+    .dugme_opet{
+        order: 4;
+    }
+    .akcija{
+        height: 140px;
+        order: 1;
+    }
+    .link_opet{
+        font-size: 1em;
+    }
+    .link_levo{
+        font-size: 1em;
+    }
+    .link_desno{
+        font-size: 1em;
+    }
+    .veci_deo_desno{
+        height: 700px;
+        width: 100%;
+    }
+    .naslov_gore{
+        font-size: 2em;
+    }
+    .slika_desnog{
+        height: 60%;
+    }
+    .tekst_desnog{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .ikonice_desni{
+        width: 12%;
+        height: 4%;
+    }
+    .vise_manjih_desno{
+        height: 1000px;
+        width: 100%;
+    }
+    .slika_levo{
+        height: 100%;
+        width: 45%;
+    }
+    .tekst_ikonice_desno{
+        padding: 0;
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 0.5em;
+        width: 55%;
+    }
+    .ikonice_ispod{
+        width: 20%;
+        height: 10%;
+    }
+    .footer{
+        height: 450px;
+    }
+    .footer_gore{
+        flex-wrap: wrap;
+    }
+    .footer_gore_levo{
+        width: 100%;
+        height: 60%;
+    }
+    .footer_gore_desno{
+        width: 100%;
+        height: 40%;
+    }
+    .boja{
+        display: none;
+    }
+    .footer_gore_levo ul{
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 0.5em;
+    }
+    .footer_gore_levo ul li{
+        text-align: center;
+    }
+    .footer_gore{
+        height: 75%;
+    }
+    .footer_dole{
+        height: 25%;
+    }
+    .linkovi_desno{
+        width: 70%;
+        height: 53%;
+        margin-top: 0;
+    }
+    .ikonice_dole{
+        justify-content: center;
+    }
+    .jedna_ikonica{
+        width: 3%;
+        height: 60%;
+    }
+    .instagram_ikonica{
+        width: 4%;
+        height: 65%;
+    }
+    .footer_dole ul{
+        font-size: 0.8em;
+    }
+    .tekst_desno{
+        font-size: 0.9em;
+    }
+    #vise_sa_veba{
+        display: none;
+    }
+    #vise_sa_veba_manji{
+        display: none;
+    }
+    #eklinika{
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+    }
+    #eklinika .naslov_gore{
+        font-size: 1.2em;
+        height: 10%;
+    }
+    #eklinika .linija{
+        width: 78%;
+    }
+    #eklinika .slika_desnog{
+        height: 300px;
+    }
+    #eklinika .tekst_desnog{
+        font-size: 1.5em;
+        height: auto;
+    }
+    #eklinika .ikonice_desni{
+        display: none;
+    }
+    #eklinika_manji{
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+        gap: 1em 0;
+    }
+    #eklinika_manji .jedan_manji{
+        height: auto;
+        align-items: normal;
+    }
+    #eklinika_manji .slika_levo{
+        height: 150px;
+        width: 40%;
+    }
+    #eklinika_manji .ikonice_ispod{
+        display: none;
+    }
+    #eklinika_manji .tekst_ikonice_desno{
+        margin: 0;
+        height: auto;
+        width: 58%;
+        margin-left: auto;
+    }
+    #eklinika_manji .tekst_iznad{
+        font-size: 0.8em;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .logo_za_responsive{
+        width: 30%;
+        height: 50%;
+    }
+    .ikonica_za_responsive{
+        width: 15%;
+        height: 80%;
+    }
+    .novi_header_biznis ul{
+        width: 70%;
+    }
+    .main{
+        padding: 0 1em;
+    }
+    .centar_levo{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .veci{
+        height: 60%;
+        width: 100%;
+    }
+    .dva_manja{
+        height: 40%;
+        width: 100%;
+        flex-direction: row;
+    }
+    .mali{
+        width: 49%;
+        height: 95%;
+    }
+    .veci_sa_6{
+        height: 900px;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+    .mali_novi{
+        width: 49%;
+        height: 33%;
+        justify-content: space-between;
+    }
+    .slika_1,
+    .tekst_ispod{
+        width: 100%;
+    }
+    .slika_1{
+        height: 60%;
+    }
+    .tekst_ispod{
+        height: 40%;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .levo_dole_link{
+        width: auto;
+        padding: 0 0.5em;
+    }
+    .jedan_veliki{
+        height: 450px;
+        width: 100%;
+    }
+    .naslov_velikog{
+        height: 13%;
+    }
+    .strelice_desno{
+        width: 40%;
+    }
+    .jedna{
+        width: 45%;
+        height: 70%;
+    }
+    .jedan_levo{
+        display: none;
+    }
+    #jedna_vest_samo{
+        display: block;
+        width: 95%;
+        height: 100%;
+    }
+    .navijac{
+        height: 80%;
+    }
+    .tekst_ispod2{
+        font-size: 1.5em;
+        height: auto;
+    }
+    .novi_link{
+        width: auto;
+        padding: 0 0.5em;
+    }
+    .sivi_tekst{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .vesti{
+        width: 100%;
+        height: 700px;
+    }
+    .vesti_naslov{
+        width: 100%;
+    }
+    .vise_stvari{
+        font-size: 0.8em;
+    }
+    .veliki_div{
+        width: 100%;
+        height: 90%;
+    }
+    .link_opet{
+        width: auto;
+        padding: 0 0.5em;
+    }
+    .veci_deo{
+        height: 50%;
+    }
+    .dva_manja_ispod{
+        height: 50%;
+    }
+    .ceo_div{
+        height: 95%;
+        width: 49%;
+        justify-content: start;
+        position: relative;
+    }
+    .slika_opet{
+        height: 50%;
+    }
+    .tekst_ispod7{
+        font-size: 1.2em;
+        margin-top: 0.2em;
+        font-weight: bold;
+        height: auto;
+    }
+    .link_2{
+        width: auto;
+        padding: 0.1em 0.5em;
+    }
+    .ikonice_opet2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        height: 9%;
+    }
+    .nova_tri_ispod{
+        flex-wrap: wrap;
+        height: 500px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .jedan_mali{
+        width: 100%;
+        height: 31%;
+        flex-direction: row;
+        position: relative;
+    }
+    .slika_unutra{
+        height: 100%;
+        width: 40%;
+    }
+    .tekst_ispod5{
+        width: 60%;
+        height: auto;
+        font-size: 1.4em;
+        font-weight: bold;
+        padding-left: 0.5em;
+    }
+    .ikonice_5{
+        position: absolute;
+        bottom: 0;
+        right: 42%;
+        height: 15%;
+        width: 16%;
+    }
+    .link_opet4{
+        width: auto;
+        padding: 0 0.5em;
+    }
+    .sve_vesti{
+        width: auto;
+    }
+    .vesti_naslov h3{
+        font-size: 1.5em;
+    }
+    .vise_stvari{
+        padding-bottom: 1em;
+    }
+    .vesti{
+        margin-top: 1em;
+    }
+    .najnovije{
+        width: 100%;
+    }
+    .centar_desno{
+        width: 100%;
+        padding: 0;
+    }
+    .ikonice_bele_again{
+        width: 18%;
+    }
+    .footer{
+        height: 600px;
+        padding: 0;
+    }
+    .footer_dole{
+        padding: 0;
+    }
+    .footer_dole ul{
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 1em 0.5em;
+    }
+    .footer_gore_levo{
+        height: 75%;
+    }
+    .footer_gore_desno{
+        height: 25%;
+    }
+    .footer_gore_levo ul{
+        width: 55%;
+        gap: 0.5em 0.5em;
+        padding-right: 1.5em;
+    }
+    .footer_gore_levo ul li{
+        margin: 0;
+        text-align: center;
+    }
+    .linkovi_desno{
+        height: 60%;
+        width: 85%;
+    }
+    .ikonice_dole{
+        height: 40%;
+        width: 100%;
+    }
+    .jedna_ikonica{
+        width: 4%;
+        height: 50%;
+    }
+    .instagram_ikonica{
+        width: 6%;
+        height: 50%;
+    }
+    .forma_ispod{
+        height: 250px;
+    }
+    .novi_unutar{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .prvi_od_tri{
+        height: 20%;
+        width: 95%;
+    }
+    .ponovo_dugme a{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .tekst_i_link{
+        margin: 0;
+        width: 20%;
+    }
+    .naslov_ikonice{
+        width: 80%;
+    }
+    .ikonice_dole_druga{
+        width: 20%;
+    }
+    .ikonice_desni{
+        width: 17%;
+    }
+    .tekst_iznad{
+        font-size: 0.8em;
+    }
+    .vise_manjih_desno{
+        height: 700px;
+    }
+    .ikonice_ispod{
+        height: 15%;
+        width: 35%;
+    }
+    .veci_deo_desno{
+        height: 500px;
+    }
+    .tekst_desnog{
+        font-size: 1.5em;
+    }
+    .novi_veliki{
+        height: 700px;
+        width: 100%;
+        margin: 1em 0;
+    }
+    .naslov_novog{
+        height: 10%;
+    }
+    .tri_nova{
+        height: 90%;
+        flex-wrap: wrap;
+        padding: 0 0.5em;
+    }
+    .jedan_posebno{
+        width: 49%;
+        height: 49%;
+        margin-top: 1em;
+    }
+    .slika_jednog{
+        height: 45%;
+    }
+    .tekst_jednog{
+        font-size: 1.2em;
+    }
+    #prvi{
+        width: 100%;
+        height: 50%;
+    }
+    #prvi .slika_jednog{
+        height: 75%;
+    }
+    #prvi .tekst_jednog{
+        height: 25%;
+        font-size: 1.5em;
+    }
+    #posebna_tri{
+        height: 600px;
+    }
+    #posebna_tri .jedan_mali{
+        flex-direction: column;
+        height: 49%;
+        width: 49%;
+    }
+    #posebna_tri .slika_unutra{
+        width: 100%;
+        height: 60%;
+    }
+    #posebna_tri .tekst_ispod5{
+        height: 40%;
+        width: 100%;
+        font-size: 1.1em;
+        padding-top: 0.5em;
+    }
+    #posebna_tri .ikonice_5{
+        bottom: 0;
+        height: 8%;
+        width: 30%;
+        right: 0;
+    }
+    #posebna_tri #prvi_tri{
+        width: 100%;
+        height: 49%;
+        position: relative;
+    }
+    #prvi_tri .slika_unutra{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #prvi_tri .tekst_ispod5{
+        position: absolute;
+        bottom: 20%;
+        height: auto;
+        width: 100%;
+        padding: 0 1.5em;
+        font-size: 1.5em;
+    }
+    #prvi_tri .tekst_ispod5 a{
+        color: white;
+    }
+    #prvi_tri .ikonice_5{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 10%;
+        width: 20%;
+    }
+    .sve_vesti_crno{
+        width: auto;
+    }
+
+   .tekst_jednog_web{
+    font-size: 0.8em;
+   }
+   .tekst_posebno{
+    font-size: 0.8em;
+   }
+   .jedan_manji{
+    font-size: 0.8em;
+   }
+   .jedan_mali{
+    font-size: 0.9em;
+   }
+
+   .horoskop{
+    width: 100%;
+    height: 600px;
+   }
+   .lista_neka{
+    width: 50%;
+    height: 5%;
+   }
+   .horoskopski_znak{
+    height: 33%;
+    width: 24%;
+   }
+   .naslov_horoskop{
+    height: 10%;
+   }
+   .lista_horoskopa{
+    height: 85%;
+   }
+ 
+
+}
